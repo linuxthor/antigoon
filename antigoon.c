@@ -66,7 +66,7 @@ void do_shit (struct work_struct *work)
         desc.tfm = tfm;
         desc.flags = 0;
 
-        sg_init_one(&sg, syscall_table, 350);
+        sg_init_one(&sg, syscall_table, 420);
 
         crypto_hash_init(&desc);
 
